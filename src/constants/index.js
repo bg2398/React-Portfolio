@@ -19,10 +19,12 @@ import {
     starbucks,
     tesla,
     shopify,
-    gym,
+    myWedding,
     weather,
     databse,
     threejs,
+    RiosLogo,
+    RiosPage,
   } from "../assets";
   
   export const navLinks = [
@@ -32,12 +34,25 @@ import {
     },
     {
       id: "work",
-      title: "Work",
+      title: "Experience",
     },
     {
       id: "contact",
       title: "Contact",
+    },
+    {
+      id: "works",
+      title: "Projects"
+    },
+    {
+      id: "footer",
+      title: "My Socials"
+    },
 
+    {
+      id:"resume",
+      title: "Resume",
+      URL: "https://docs.google.com/document/d/1Cxivr2nNV4y1ZVumruiadlipQYewncqqIWB4E8Rx5lY/edit?usp=sharing"
     },
   ];
   
@@ -128,6 +143,18 @@ import {
         "In charge of assigning the workload to the techs throughout the week.",
       ],
     },
+    {
+      title: "Full Stack Developer",
+      company_name: "Rios Beauty",
+      icon: RiosLogo,
+      iconBg: "#E6DEDD",
+      date: "Sep 2023 - October 2023",
+      points: [
+        "Stephanie, the owner of RiosBeauty hired me to design a business website",
+        "Stephanie trusted me to design and make her business site modern",
+        "Her business site now showcases her work as well as the option to contact her via socila media or email",
+      ],
+    },
   ];
   
   const testimonials = [
@@ -137,15 +164,24 @@ import {
       name: "Carmen Garcia",
       designation: "User",
       company: "Brandon's Gym app",
-      // image: "https://randomuser.me/api/portraits/women/4.jpg",
+
+    },
+
+    {
+      testimonial:
+        "Brandon designed my business website for me to showcase my hair work and I loved it!",
+      name: "Stephanie Rios",
+      designation: "CEO",
+      company: "Rios Beauty",
+      icon: RiosLogo,
     }
   ];
   
   const projects = [
     {
-      name: "Brandon's Gym",
+      name: "Rios Beauty",
       description:
-        "An exercise tutorial app that shows you examples on how to execute the exercises based on the selected muscle category as well as the ability to click on a link that will direct you to youtube on how to execute the selected exercise ",
+        "A business site created for Rios Beauty using different React Libraries ",
       tags: [
         {
           name: "react",
@@ -162,8 +198,31 @@ import {
           
         },
       ],
-      image: gym,
-      source_code_link: "https://brandonsgym.netlify.app/",
+      image: RiosPage,
+      source_code_link: "https://rios-beauty.com/",
+    },
+    {
+      name: "My Wedding",
+      description:
+        "Devoloped a Front end web page for my wedding. ",
+      tags: [
+        {
+          name: "react",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "Node.js",
+          color: "green-text-gradient",
+        },
+        {
+          name: "tailwind",
+          color: "pink-text-gradient",
+        
+          
+        },
+      ],
+      image: myWedding,
+      source_code_link: "https://bg2398.github.io/MyWedding/",
     },
     {
       name: "Weather app",

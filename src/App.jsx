@@ -1,7 +1,8 @@
 import { BrowserRouter } from "react-router-dom"
 //Removed feedbacks below will add later on.
 import { About, Contact, Experience, Feedbacks, Hero, Navbar, Tech,
- Works, StarsCanvas } from './components'
+ Works, StarsCanvas,} from './components'
+import Footer from "./components/Footer"
 
 
 const App = () => {
@@ -23,6 +24,7 @@ const App = () => {
   <Contact />
   <StarsCanvas />
  </div>
+ <Footer />
 </div>
 </BrowserRouter>
   )

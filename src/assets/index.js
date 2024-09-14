@@ -25,10 +25,12 @@ import meta from "./company/meta.png";
 import shopify from "./company/shopify.png";
 import starbucks from "./company/starbucks.png";
 import tesla from "./company/tesla.png";
-
+import RiosLogo from "./company/RiosLogo.png";
+import RiosPage from "./RiosPage.png";
 import gym from "./gym.png";
 import weather from "./weather.png";
 import databse from "./database.png";
+import myWedding from "./myWedding.png"
 
 export {
   logo,
@@ -56,7 +58,10 @@ export {
   shopify,
   starbucks,
   tesla,
+  RiosLogo,
+  RiosPage,
   gym,
   weather,
   databse,
+  myWedding
 };

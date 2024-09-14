@@ -73,7 +73,7 @@ const Navbar = () => {
                     setActive(link.id);
                     if (link.id === "resume") {
                       // Redirect to the resume link
-                      window.location.href = "https://drive.google.com/file/d/1kGtNIAOAQIntF4LQ3rN6B1vdZHTUeoK1/view?usp=sharing"; // Replace with your actual resume link
+                      window.location.href = "https://drive.google.com/file/d/1yJVl2-s7o5kRvzmEN5KCvFyWOm-GURTa/view?usp=drive_link"; // Replace with your actual resume link
                     } else {
                       // Scroll to the section with the corresponding ID
                       const section = document.getElementById(link.id);

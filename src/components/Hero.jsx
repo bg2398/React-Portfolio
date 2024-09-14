@@ -3,7 +3,7 @@ import { styles } from "../styles";
 import backgroundImage from "../assets/herobg.png";
 import blendImage from "../assets/myImage.png";
 import { Link, animateScroll as scroll } from "react-scroll";
-import ComputersCanvas from "./canvas/Computers.jsx"; // Import your ComputersCanvas component
+import ComputersCanvas from "./canvas/Computers.jsx"; 
 
 const Hero = () => {
   const isMobile = window.innerWidth <= 768; // Adjust the breakpoint as needed

@@ -67,7 +67,7 @@ const Hero = () => {
         <div>
           {text}
           <p className={`${styles.heroSubText} mt-2 text-white-100`}>
-            I'm a passionate Full Stack Web Developer!
+            I'm a passionate Software Engineer!
             <br className="sm:block hidden" />
             {/* Ready to be your next hire! */}
           </p>
@@ -89,8 +89,9 @@ const Hero = () => {
           backgroundImage: `url(${blendImage})`,
           backgroundSize: "contain",
           backgroundRepeat: "no-repeat",
-          borderRadius: "17px",
+          borderRadius: "20px",
           left: isMobile ? "50%" : "unset",
+
           transform: isMobile ? "translateX(-50%)" : "unset",
           bottom: isMobile ? "0" : "unset",
         }}

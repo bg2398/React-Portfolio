@@ -21,10 +21,11 @@ import {
     shopify,
     myWedding,
     weather,
-    databse,
+    Calderon,
     threejs,
     RiosLogo,
     RiosPage,
+    TaxHero,
   } from "../assets";
   
   export const navLinks = [
@@ -52,7 +53,7 @@ import {
     {
       id:"resume",
       title: "Resume",
-      URL: "https://docs.google.com/document/d/1Cxivr2nNV4y1ZVumruiadlipQYewncqqIWB4E8Rx5lY/edit?usp=sharing"
+      URL: "https://drive.google.com/file/d/1yJVl2-s7o5kRvzmEN5KCvFyWOm-GURTa/view?usp=drive_link"
     },
   ];
   
@@ -132,29 +133,31 @@ import {
   
   const experiences = [
     {
-      title: "Lead Technician",
-      company_name: "Tesla",
-      icon: tesla,
-      iconBg: "#E6DEDD",
-      date: "Sep 2021 - Present",
-      points: [
-        "Use Git commands to pull logs from the vehicles",
-        "review vehicle errors in syslogs, add and delete files from the car computer using the command line, Mentor the shop.",
-        "In charge of assigning the workload to the techs throughout the week.",
-      ],
-    },
-    {
-      title: "Full Stack Developer",
+      title: "Front End React Developer",
       company_name: "Rios Beauty",
       icon: RiosLogo,
       iconBg: "#E6DEDD",
-      date: "Sep 2023 - October 2023",
+      date: "August 2021 - January 2024",
       points: [
-        "Stephanie, the owner of RiosBeauty hired me to design a business website",
-        "Stephanie trusted me to design and make her business site modern",
-        "Her business site now showcases her work as well as the option to contact her via socila media or email",
+        "Designed a modern website for RiosBeauty using multiple React libraries.",
+        "Added front-end services with AWS as the hosting server.",
+        "The web app has a built in language switch button to accomade the user preffered language",
+        "Tools used: Front end, JavaScript, node.js, React, Three.Js, Tailwind CSS, github, Goggle cloud, Google cloud, HTML, CSS"
       ],
     },
+    {
+      title: "full Stack Developer",
+      company_name: "Calderon Community Services",
+      icon: TaxHero,
+      iconBg: "#E6DEDD",
+      date: "February 2024 - Present",
+      points: [
+        "Developed and maintain web appllication for Tax and immigration services for customers",
+        "The creation of this web app increaded clientele for the company.",
+        "Tools used: Front End, Back-End, JavaScript, node.js, github, Goggle cloud, Google cloud, HTML, CSS",
+      ],
+    },
+    
   ];
   
   const testimonials = [
@@ -246,9 +249,9 @@ import {
       source_code_link: "https://bg2398.github.io/Whats-the-weather-today/",
     },
     {
-      name: "Employee tracker database",
+      name: "Calderon Community Services",
       description:
-        "This is an application ran in the command line to manage a company's employee database. View and manage the departments, roles, and employees in the company so that the user can organize and plan their business",
+        "Web application created for a Tax and immigration services. ",
       tags: [
         {
           name: "mySql",
@@ -263,8 +266,8 @@ import {
           color: "pink-text-gradient",
         },
       ],
-      image: databse,
-      source_code_link: "https://github.com/bg2398/track-employees",
+      image: Calderon,
+      source_code_link: "https://calderoncommunityservices.com/",
     },
   ];
   

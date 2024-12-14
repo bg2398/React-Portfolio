@@ -47,12 +47,7 @@ const About = () => {
         variants={fadeIn("", "", 0.1, 1)}
         className='mt-4 text-secondary text-[17px] max-w-3xl leading-[30px]'
       >
-    I've honed my skills in both front-end and back-end development 
-    to create seamless and dynamic web applications. 
-    With every project I undertake, I strive to bring ideas to life by crafting 
-    elegant and user-friendly interfaces that make a meaningful impact.
-    From crafting pixel-perfect designs to architecting robust databases and APIs,
-    I embrace the challenge of mastering a diverse set of technologies and tools.
+    Hi, I'm Brandon, a passionate software engineer graduating from the University of Washington. I specialize in designing innovative solutions and building efficient, scalable systems. With a strong foundation in computer science and hands-on experience in developing software applications, I am eager to bring creativity and technical expertise to real-world challenges.
    
       </motion.p>
 

@@ -20,7 +20,7 @@ const Navbar = () => {
           }}
         >
           <img src={logo} alt='logo' className='w-9 h-9 object-contain logo-transparent-bg' />
-          <p className="text-white text-[18px] font-bold cursor-pointer flex"> Brandon &nbsp; <span className='sm:block hidden'>| Full Stack Developer</span></p>
+          <p className="text-white text-[18px] font-bold cursor-pointer flex"> Brandon &nbsp; <span className='sm:block hidden'>| Software Engineer</span></p>
         </Link>
         <ul className='list-none hidden sm:flex flex-row gap-10'>
           {navLinks.map((link) => (
@@ -35,7 +35,7 @@ const Navbar = () => {
                 setActive(link.id);
                 if (link.id === "resume") {
                   // Redirect to the resume link
-                  window.location.href = "https://drive.google.com/file/d/1yJVl2-s7o5kRvzmEN5KCvFyWOm-GURTa/view?usp=drive_link"; // Replace with your actual resume link
+                  window.location.href = "https://drive.google.com/file/d/1Ff_yFo28kvfT2mbbwCId7I8RbCb466Sc/view?usp=drive_link"; // Replace with your actual resume link
                 } else {
                   // Scroll to the section with the corresponding ID
                   const section = document.getElementById(link.id);

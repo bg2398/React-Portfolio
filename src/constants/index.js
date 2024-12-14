@@ -53,7 +53,7 @@ import {
     {
       id:"resume",
       title: "Resume",
-      URL: "https://drive.google.com/file/d/1yJVl2-s7o5kRvzmEN5KCvFyWOm-GURTa/view?usp=drive_link"
+      URL: "https://drive.google.com/file/d/1Ff_yFo28kvfT2mbbwCId7I8RbCb466Sc/view?usp=drive_link"
     },
   ];
   
@@ -133,28 +133,30 @@ import {
   
   const experiences = [
     {
-      title: "Front End React Developer",
+      title: "Software Engineer",
       company_name: "Rios Beauty",
       icon: RiosLogo,
       iconBg: "#E6DEDD",
       date: "August 2021 - January 2024",
       points: [
-        "Designed a modern website for RiosBeauty using multiple React libraries.",
+        "Improved software efficiency by troubleshooting and resolving coding issues.",
         "Added front-end services with AWS as the hosting server.",
-        "The web app has a built in language switch button to accomade the user preffered language",
-        "Tools used: Front end, JavaScript, node.js, React, Three.Js, Tailwind CSS, github, Goggle cloud, Google cloud, HTML, CSS"
+        "Optimized application performance by conducting regular code reviews and refactoring when necessary.",
+        "Provided 24/7 support for web- and client-based applications, file and data feeds and batch processes to prevent impact to business."
       ],
     },
     {
-      title: "full Stack Developer",
+      title: "Software Engineer",
       company_name: "Calderon Community Services",
       icon: TaxHero,
       iconBg: "#E6DEDD",
       date: "February 2024 - Present",
       points: [
-        "Developed and maintain web appllication for Tax and immigration services for customers",
-        "The creation of this web app increaded clientele for the company.",
-        "Tools used: Front End, Back-End, JavaScript, node.js, github, Goggle cloud, Google cloud, HTML, CSS",
+        "Optimized application performance by conducting regular code reviews and refactoring when necessary.",
+        "Evaluated potential software enhancements by conducting thorough testing and analysis before implementation into production environments.",
+        "Collaborated with cross-functional teams to implement necessary updates and optimize system efficiency.",
+        "Updated old code bases to modern development standards, improving functionality.",
+        "Developed software for desktop and mobile operating systems.",
       ],
     },
     
